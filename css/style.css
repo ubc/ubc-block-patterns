@@ -24,7 +24,7 @@
 
 html body .pathways-image-title-text .wp-block-image img {
     object-fit: cover;
-    height: 220px;
+    /* height: 220px; */
     width: 100%;
     object-position: 50% 20%;
 }
