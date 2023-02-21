@@ -44,5 +44,24 @@ html body .pathways-image-title-text .wp-block-image img {
 }
 
 html body div.never-miss-an-issue hr.is-style-pathways-wide-tertiary {
-    margin-bottom: 3em;
+    margin-bottom: 3.5em;
+    background-color: #C3D0DB;
+}
+
+/**
+ * pathways-related-stories
+ *
+ * Mostly fine just need to tweak the spacing around the paragraph text
+ * and the link should only be underlined on hover
+ */
+html body .wp-block-group.related-stories p {
+    margin-top: 1.3em;
+}
+
+html body .wp-block-group.related-stories p a {
+    text-decoration: none;
+}
+
+html body .wp-block-group.related-stories p:hover {
+    text-decoration: underline;
 }
