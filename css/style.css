@@ -1,0 +1,48 @@
+/**
+ * pathways-image-title-text
+ *
+ * Styles for the component that has an image, a title, and some text.
+ * This is used in several other places such as the 'must read' section
+ * on the home page, and in the slider on the home page.
+ * We default the images to being 220px high, but other
+ * patterns/components that use this may override that.
+ */
+.pathways-image-title-text p,
+.pathways-image-title-text p a {
+    font-size: 0.98em;
+    font-weight: 600;
+    color: var(--color-ubc-primary, #002145);
+    margin-top: 0.75em;
+    line-height: 1.5rem;
+    margin-bottom: 1em;
+    text-decoration: none;
+}
+
+.pathways-image-title-text p a:hover {
+    text-decoration: underline;
+}
+
+html body .pathways-image-title-text .wp-block-image img {
+    object-fit: cover;
+    height: 220px;
+    width: 100%;
+    object-position: 50% 20%;
+}
+
+/**
+ * pathways-never-miss-an-issue
+ *
+ * Mostly it's correct it's just the narrow line under the title
+ * needs a little extra room. The divider needs more room too.
+ */
+.never-miss-an-issue .is-style-pathways-narrow-line-under {
+    margin-bottom: 1.8em;
+}
+
+ .never-miss-an-issue .is-style-pathways-narrow-line-under::after {
+    bottom: -22px;
+}
+
+html body div.never-miss-an-issue hr.is-style-pathways-wide-tertiary {
+    margin-bottom: 3em;
+}
