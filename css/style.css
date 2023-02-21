@@ -65,3 +65,10 @@ html body .wp-block-group.related-stories p a {
 html body .wp-block-group.related-stories p:hover {
     text-decoration: underline;
 }
+
+html body .wp-block-group.related-stories .wp-block-image img {
+    object-fit: cover;
+    height: 249px;
+    width: 100%;
+    object-position: 50% 20%;
+}
