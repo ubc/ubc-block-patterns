@@ -72,3 +72,39 @@ html body .wp-block-group.related-stories .wp-block-image img {
     width: 100%;
     object-position: 50% 20%;
 }
+
+/**
+ * Featured Header
+ */
+html body .opinion-header,
+html body.wp-admin .is-root-container .wp-block-group.opinion-header {
+    max-width: var(--size-max-container-width) !important; /* Gutenberg adds an !important because whynot */
+    margin: 0 auto;
+}
+
+html body .opinion-header .opinion-lede {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+html body .opinion-header .opinion-lede p.is-style-pathways-narrow-line-under {
+    font-size: 1em;
+    font-weight: 600;
+    letter-spacing: 3px;
+    line-height: 3rem;
+    margin-bottom: 1em;
+}
+
+html body .opinion-header .opinion-lede h1 {
+    font-size: 2em;
+    letter-spacing: 2px;
+    margin-bottom: 0.3em;
+}
+
+html body .opinion-header .opinion-lede h1+p {
+    margin-top: 1em;
+    line-height: 1.65em;
+    font-size: 16px;
+    font-weight: 400;
+}

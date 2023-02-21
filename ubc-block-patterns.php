@@ -27,6 +27,7 @@ require 'patterns/categories.php';
 require 'patterns/pathways-image-title-text/pathways-image-title-text.php';
 require 'patterns/pathways-related-stories/pathways-related-stories.php';
 require 'patterns/pathways-never-miss-an-issue/pathways-never-miss-an-issue.php';
+require 'patterns/pathways-featured-header/pathways-featured-header.php';
 
 
 /**
